@@ -1,2 +1,4 @@
 *.wiki filter=git-crypt diff=git-crypt
+*.o filter=git-crypt diff=git-crypt
+*.asm filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
