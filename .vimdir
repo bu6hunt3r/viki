@@ -1,0 +1,4 @@
+:cd %:p:h
+silent! !git pull > /dev/null
+:e!
+autocmd! BufWritePost * silent! !git add .;git commit -m "vim autocommit" > /dev/null; git push > /dev/null&

@@ -1,4 +1,6 @@
 * filter=git-crypt diff=git-crypt
 
 .gitattributes !filter !diff
+.vimdir !filter !diff
 *.md !filter !diff
+
